@@ -1,7 +1,7 @@
 # PropMolFlow: Property-guided Molecule Generation with Geometry-Complete Flow Matching
 [![arXiv](https://img.shields.io/badge/arXiv-1234.56789-b31b1b.svg?style=flat)](https://arxiv.org/abs/2505.21469)
 
-The paper is now published at Nature Computational Science: [*"PropMolFlow: Property-guided Molecule Generation with Geometry-Complete Flow Matching"*](https://www.nature.com/articles/s43588-025-00946-y): 
+The paper is now published at Nature Computational Science: [*"PropMolFlow: Property-guided Molecule Generation with Geometry-Complete Flow Matching"*](https://www.nature.com/articles/s43588-025-00946-y), 
 and Demo on an **[interative website](https://propmolflow-website.vercel.app/)** 
 
 ![Image](overview_page.jpg)
