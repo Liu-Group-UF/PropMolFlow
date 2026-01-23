@@ -11,7 +11,7 @@ To use a custom dataset in PropMolFlow, you need to modify several files:
 
 ## Example: QMe14S Dataset
 
-The [QMe14S dataset](https://doi.org/10.1021/acs.jpclett.5c00839) is used here as an example to demonstrate how to integrate a custom dataset into PropMolFlow. QMe14S contains 186k molecules consisting of 14 elements. In this example, we use a csv file contains single property dipole moment for demonstration. **All configuration files and data processing scripts need to be modified are provided in the `CustomDataset` folder.**
+The [QMe14S dataset](https://doi.org/10.1021/acs.jpclett.5c00839) is used here as an example to demonstrate how to integrate a custom dataset into PropMolFlow. You can download a version of revised QMe14S used by our MolGuidance work on [zenodo](https://zenodo.org/records/16847162). QMe14S contains 186k molecules consisting of 14 elements. In this example, we use a csv file contains single property dipole moment for demonstration. **All configuration files and data processing scripts need to be modified are provided in the `CustomDataset` folder.**
 
 ### Dataset Files
 
