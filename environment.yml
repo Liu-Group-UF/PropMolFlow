@@ -43,6 +43,7 @@ dependencies:
     - useful-rdkit-utils==0.90
     - posebusters==0.5.0
     - ase
+    - jsonschema
     
     # Experiment tracking
     - wandb
