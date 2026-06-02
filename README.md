@@ -245,7 +245,7 @@ Specifically, earlier implementations (e.g., from MiDi and FlowMol) contained a 
 ### Usage
 
 ```python
-from molguidance.utils.compute_molecule_stability import compute_stability
+from propmolflow.utils.compute_molecule_stability import compute_stability
 
 compute_stability(sdf_file)
 # print out the following stability metrics:
