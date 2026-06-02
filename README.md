@@ -249,7 +249,7 @@ from propmolflow.utils.compute_molecule_stability import compute_stability
 
 compute_stability(sdf_file)
 # print out the following stability metrics:
-# - 'rdkit_validity': fraction of molecules passing RDKit sanitization
+# - 'validity': fraction of molecules that are chemically valid 
 # - 'molecule_stability': fraction of molecules where all atoms have valid valencies
 # - 'atom_stability': fraction of atoms with valid valencies
 ```
