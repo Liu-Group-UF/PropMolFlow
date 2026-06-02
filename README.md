@@ -239,7 +239,7 @@ To use your own dataset, please follow the steps in folder `CustomDataset`.
 We provide a chemically rigorous molecular stability evaluation script that addresses known issues in widely-used stability metrics (see [Nikitin et al., *Digital Discovery*, 2025](https://pubs.rsc.org/en/content/articlehtml/2025/dd/d5dd00206k) for a detailed discussion of these issues).
 
 Specifically, earlier implementations (e.g., from MiDi and FlowMol) contained a bug in valency computation for aromatic bonds, which led to chemically implausible entries in the valency lookup table (e.g., neutral carbon with valency 3, neutral nitrogen with valency 2) and artificially inflated molecular stability scores. Our implementation addresses this by:
-- Using RDKit's explicit valence with charge-valence consistency checking (`valence - default_valence - formal_charge = 0`) for **QM9** (5 elements: C, H, O, N, F). This part has already been done with propflowm metrics, so the stability scores for QM9 are consistent with the paper results.
+- Using RDKit's explicit valence with charge-valence consistency checking (`valence - default_valence - formal_charge = 0`) for **QM9** (5 elements: C, H, O, N, F). This part has already been done with propmolflow metrics, so the stability scores for QM9 are consistent with the paper results.
 - Adopting the corrected valency lookup table from Nikitin et al. for large datasets containing more elements and aromatic systems, which correctly handles multi-valent elements such as S (valency 2, 3, or 6), P (valency 3 or 5).
 
 ### Usage
